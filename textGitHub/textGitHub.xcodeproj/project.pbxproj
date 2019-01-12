@@ -15,6 +15,7 @@
 		A637CCDC21E9EEAD0012ADD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A637CCDA21E9EEAD0012ADD8 /* LaunchScreen.storyboard */; };
 		A637CCE721E9EEAD0012ADD8 /* textGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A637CCE621E9EEAD0012ADD8 /* textGitHubTests.m */; };
 		A637CCF221E9EEAD0012ADD8 /* textGitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A637CCF121E9EEAD0012ADD8 /* textGitHubUITests.m */; };
+		A637CD0121E9F1BE0012ADD8 /* textFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = A637CD0021E9F1BE0012ADD8 /* textFirstController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A637CCED21E9EEAD0012ADD8 /* textGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A637CCF121E9EEAD0012ADD8 /* textGitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textGitHubUITests.m; sourceTree = "<group>"; };
 		A637CCF321E9EEAD0012ADD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A637CCFF21E9F1BE0012ADD8 /* textFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textFirstController.h; sourceTree = "<group>"; };
+		A637CD0021E9F1BE0012ADD8 /* textFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textFirstController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A637CCD021E9EEAD0012ADD8 /* AppDelegate.m */,
 				A637CCD221E9EEAD0012ADD8 /* ViewController.h */,
 				A637CCD321E9EEAD0012ADD8 /* ViewController.m */,
+				A637CCFF21E9F1BE0012ADD8 /* textFirstController.h */,
+				A637CD0021E9F1BE0012ADD8 /* textFirstController.m */,
 				A637CCD521E9EEAD0012ADD8 /* Main.storyboard */,
 				A637CCD821E9EEAD0012ADD8 /* Assets.xcassets */,
 				A637CCDA21E9EEAD0012ADD8 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A637CCD421E9EEAD0012ADD8 /* ViewController.m in Sources */,
+				A637CD0121E9F1BE0012ADD8 /* textFirstController.m in Sources */,
 				A637CCD121E9EEAD0012ADD8 /* AppDelegate.m in Sources */,
 				A637CCCE21E9EEAD0012ADD8 /* main.m in Sources */,
 			);
@@ -509,6 +515,7 @@
 				A637CCF821E9EEAD0012ADD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A637CCF921E9EEAD0012ADD8 /* Build configuration list for PBXNativeTarget "textGitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				A637CCFB21E9EEAD0012ADD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A637CCFC21E9EEAD0012ADD8 /* Build configuration list for PBXNativeTarget "textGitHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				A637CCFE21E9EEAD0012ADD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
